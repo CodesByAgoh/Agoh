@@ -1,0 +1,285 @@
+body{
+background-color: #000000;
+}
+
+p{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.3rem;
+  color: #fff;
+}
+h1{
+  font-size: 3.1rem;
+  color: #F0D9FF;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+}
+
+.social-icon{
+  color: #fff;
+margin: 4%;
+}
+.fab{
+  color: #fff;
+  margin: 4%;
+}
+.fas{
+  color: #fff;
+  margin: 2%;
+}
+
+h3{
+  font-size: 2.8rem;
+  color: #F0D9FF;
+  font-family: 'ubuntu', sans-serif;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h4{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.first-navbar{
+  padding: 3% 15% 3% 10%;
+  position: static;
+}
+
+.myclass{
+  position: static;
+}
+
+.frontend{
+  font-size: 4.3rem;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 4.4rem;
+  letter-spacing: -0.1rem;
+}
+
+/* .developer{
+  font-size: 2.1rem;
+  font-family: 'Ubuntu', sans-serif;
+
+} */
+
+
+.memoji2{
+  width: 80%;
+  margin-left: 25%;
+  float: right;
+  position: relative;
+}
+/* .card1{
+  text-align: center;
+  display: flex;
+margin-left: 25%;
+}
+
+.card{
+  border: 1px solid #fff;
+  border-radius: 9px;
+  text-align: center;
+  height: 20rem;
+  width: 13rem;
+  text-align: center;
+  background-color: #000000;
+  margin: 5%;
+transition: transform 450ms;
+}
+.card2{
+
+    height: 9rem;
+    width: 10rem;
+    text-align: center;
+    background-color: #000000;
+    margin: 5%;
+  transition: transform 450ms;
+
+} */
+.card:hover{
+  transform: scale(1.09);
+     opacity: 1;
+}
+
+
+#portfoliosection{
+  background-color: #000000;
+}
+.netflix{
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .developer{
+    font-size: 2.1rem;
+    font-family: 'Ubuntu', sans-serif;
+
+  }
+
+
+  .memoji2{
+    width: 80%;
+    margin-left: 25%;
+    float: right;
+    position: relative;
+  }
+  .card1{
+    text-align: center;
+    display: flex;
+  margin-left: 25%;
+  }
+
+  .card{
+    border: 1px solid #fff;
+    border-radius: 9px;
+    text-align: center;
+    height: 20rem;
+    width: 13rem;
+    text-align: center;
+    background-color: #000000;
+    margin: 5%;
+  transition: transform 450ms;
+  }
+  .card2{
+
+      height: 9rem;
+      width: 10rem;
+      text-align: center;
+      background-color: #000000;
+      margin: 5%;
+    transition: transform 450ms;
+
+  }
+}
+@media only screen and (min-width: 312px) {
+.developer {
+  font-size: 1.6rem;
+  }
+
+.card{
+    border: 1px solid #fff;
+    border-radius: 9px;
+    text-align: center;
+    height: 20rem;
+    width: 13rem;
+    text-align: center;
+    background-color: #000000;
+    margin-left: 90px;
+    margin-bottom: 20px;
+  transition: transform 450ms;
+  }
+.card2{
+      height: 9rem;
+      width: 10rem;
+      text-align: center;
+      background-color: #000000;
+      margin-left: 20px;
+        margin-top: 20px;
+      transition: transform 450ms;
+
+  }
+
+.card1{
+  text-align: center;
+}
+
+}
+
+#aboutme{
+  background-color: #000000;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  font-size: 5rem;
+  padding: 7% 15% 7% 15%;
+}
+
+#agoh{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4.3rem;
+  color: #BFA2DB;
+}
+
+#navbar{
+    background-color: #000000;
+}
+.navbar{
+  padding: 0 0 5rem 0;
+
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link{
+  font-size: 1.3rem;
+  color: #7F7C82;
+  margin-left: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.memoji{
+  width: 15%;
+  float: left;
+}
+
+.music{
+  width: 15%;
+  float: right;
+}
+
+@media only screen and (min-width: 312px) {
+  .tech{
+    text-align: center;
+  }
+  .tech-Stack{
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    margin: 5%;
+  }
+  .tech-paragraph{
+    text-align: center;
+  }
+
+}
+@media only screen and (min-width: 1024px) {
+  .tech{
+    text-align: center;
+  }
+  .tech-Stack{
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    margin: 5%;
+  }
+  .tech-paragraph{
+    text-align: center;
+  }
+
+}
+/* .tech{
+  text-align: center;
+}
+.tech-Stack{
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  margin: 5%;
+}
+.tech-paragraph{
+  text-align: center;
+} */
+
+#footer{
+    background-color: #000000;
+  text-align: center;
+  margin: 5% 3% 5% 3%;
+}
+
+.social-icon{
+  margin: 20px 10px 20px 10px;
+}
